@@ -19,6 +19,10 @@ export default function Navbar() {
       text: "Contact",
       path: "/contact",
     },
+    {
+      text: "Blogs",
+      path: "/blogs ",
+    },
   ];
   const handler=()=>{
 router.push('/about')
